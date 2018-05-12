@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server --inline  --port 8085",
+    "deploy": " webpack -p"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "open-browser-webpack-plugin": "0.0.5",
+    "style-loader": "^0.21.0",
+    "vue": "^2.5.16"
+  }
+}

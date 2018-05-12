@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval --progress --colors",
+    "deploy": "NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>demo1</title>
+	
+  </head>
+  
+  <body>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> 
+	<div id="app">
+	  <input type="text" v-model="message">
+	  <h1>{{ message }}</h1>
+	  <h2>hello</h2>
+	</div>
+  </body>
+  
+  <script>
+	var app = new Vue({
+	  el: '#app',
+	  data: {
+		message: 'Hello Vue!',
+		message1: "nihao"
+	  }
+	});
+	window.el=app.message;
+	 /**/
+  </script>
+</html>

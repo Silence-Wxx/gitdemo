@@ -1,0 +1,6 @@
+{	
+   "scripts":{
+	"dev":"webpack-dev-server --devtool eval --progress --colors",
+	"deploy":"webpack -p"
+   }
+}
