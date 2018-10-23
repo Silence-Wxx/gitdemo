@@ -1,0 +1,15 @@
+{
+    "title": "安源电气 帮助指南",
+    "description": "此软件只能在hae502使用",
+    "language": "zh",
+    "plugins": [
+      "editlink",
+      "splitter"
+    ],
+    "pluginsConfig": {
+      "editlink": {
+        "base": "https://github.com/zhaoda/webpack-handbook/blob/master/content",
+        "label": "编辑本页"
+      }
+    }
+  }
